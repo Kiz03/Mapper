@@ -297,7 +297,7 @@ document.body.addEventListener('click', e=> {
       
 
 
-        // for tommorow just have to make lives end if incorrect guess, and if max number of images shown, then end game display score and give option for main screen or play again. Timer if you have time lol
+        // for tommorow just have to make lives end if incorrect guess, and if max number of images shown, then end game display score and give option for main screen or play again. Timer 
         
 
 
@@ -399,7 +399,7 @@ function gameDecider() {
 
 
 document.body.addEventListener('click', e=> { 
-    if (e.target.classList.contains('playAg')) { // check for more effiecent way to do this 
+    if (e.target.classList.contains('playAg')) { 
         e.target.parentNode.parentNode.remove();
         maincon.style.opacity = '1';
         chooseMode = document.createElement('div');
